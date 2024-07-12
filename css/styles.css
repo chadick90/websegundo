@@ -72,3 +72,12 @@ footer a:hover {
 footer .embed-responsive {
     margin-top: 10px;
 }
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    background-color: rgb(200, 180, 150);
+}
